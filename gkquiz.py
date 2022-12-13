@@ -5,7 +5,7 @@ users=open("user@.txt","r")
 read=users.readlines()
 users.close()
 users=open("user@.txt","a")
-if read==[]:
+if read==[]: #checking if the list is empty
     aa=0
 else:
     for c in read:
@@ -14,7 +14,7 @@ else:
             break
         else:
             aa=0
-print("Hello "+"\u0330".join(name.capitalize()+" ")+"\n welcome to the quiz")
+print("Hello "+"\u0330".join(name.capitalize()+" ")+"\n welcome to the quiz") #Printing the name
 a=input("press enter to continue")
 print("\n")
 print('''[1] To start quiz type 1.
